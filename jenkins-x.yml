@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: myfirstteam-staging
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: myfirstteam-staging
+  pipelines: {}
